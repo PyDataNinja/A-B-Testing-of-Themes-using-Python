@@ -20,5 +20,19 @@ For the task of **A/B testing of themes**, we need a dataset containing user int
 
 I found an ideal dataset for this task. You can download the dataset from [here](website_ab_test.csv).
 
+Let’s get started with the task of A/B testing of themes by importing the necessary Python libraries
+
+import pandas as pd
+import numpy as np  
+import matplotlib.pyplot as plt 
+import plotly.express as px
+import plotly.graph_objects as go
+import seaborn as sns
+from statsmodels.stats.proportion import proportions_ztest
+from scipy import stats
+import warnings
+warnings.filterwarnings('ignore')
+colors = px.colors.qualitative.Plotly
+data = pd.read_csv(r'Data Science project ideas on Hypothesis Testing/AB Testing for Website Conversion Optimization/Data/website_ab_test.csv')
 
 
