@@ -54,3 +54,10 @@ print(data.isnull().sum())
 
 ```
 ![Alt text](Image/Null.png)
+
+Discriptive statistics of the data
+```python
+print(data.describe())
+
+```
+![Alt text](Image/describe.png)
