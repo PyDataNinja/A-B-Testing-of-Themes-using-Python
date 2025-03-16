@@ -72,7 +72,7 @@ fig.update_layout(title='CTR vs Converstion rate', xaxis_title='CTR', yaxis_titl
 fig.show()
 
 ```
-![Alt text](Image/CTR vs Converstion Rate.png)
+![Alt text](Image/ctr_vs_converstion_rate.png)
 
 Histogram of CTR for both themes
 ```python
@@ -84,7 +84,7 @@ fig.update_layout(title='Click Through Rate By Theme', xaxis_title='CTR', yaxis_
 fig.show()
 
 ```
-![Alt text](Image/CTR vs Converstion Rate.png)
+![Alt text](Image/ctr_by_Theme1.png)
 
 Distribution of the bounce rates for both themes
 ```python
@@ -96,7 +96,7 @@ fig.update_layout(title='Bounce Rate By Theme', yaxis_title='Bounce Rate', showl
 fig.show()
 
 ```
-![Alt text](Image/CTR vs Converstion Rate.png)
+![Alt text](Image/bounce_rate_by_theme.png)
 
 Distribution of the Scroll Depth for both themes
 ```python
@@ -108,7 +108,7 @@ for i,theme in enumerate(data['Theme'].unique()):
 fig.update_layout(title='Scroll Depth By Theme', yaxis_title='Scroll Depth', showlegend=True, legend_title='Theme',width=700, height=500)
 fig.show()
 ```
-![Alt text](Image/CTR vs Converstion Rate.png)
+![Alt text](Image/scroll_depth_by_theme.png)
 
 ## Comparison of both themes based on purchases hypothesis testing
 #### Null Hypothesis: There is a no statstical significant difference in the proportion of purchases between the two themes
