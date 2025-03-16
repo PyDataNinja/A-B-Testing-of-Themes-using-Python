@@ -51,5 +51,6 @@ print(data.info())
 Check the Missing values
 ```python
 print(data.isnull().sum())
+
 ```
-![Alt text](Image/null.png)
+![Alt text](Image/Null.png)
