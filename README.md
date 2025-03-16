@@ -38,4 +38,10 @@ colors = px.colors.qualitative.Plotly
 data = pd.read_csv('website_ab_test.csv')
 print(data.head())
 ```
-![Alt text](Image/describe.png)
+![Alt text](Image/head.png)
+
+### Check the information about the data
+```python
+print(data.info())
+```
+![Alt text](Image/info.png)
