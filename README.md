@@ -40,7 +40,7 @@ print(data.head())
 ```
 ![Alt text](Image/head.png)
 
-### Check the information about the data
+Check the information about the data
 ```python
 print(data.info())
 ```
