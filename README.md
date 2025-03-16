@@ -166,7 +166,7 @@ The p-value represents the probability of observing the observed difference in a
 Since the p-value is greater than the significance level, we do not have enough evidence to reject the null hypothesis.'
 Therefore, we can conclude that there is no significant difference in the average session duration between the two themes.'
 
-##Summary
+### Summary
 In this project, we analyzed the results of an A/B test conducted on a website to determine the optimal theme for conversion optimization.
 We performed exploratory data analysis to understand the distribution of key metrics such as Click Through Rate (CTR), Conversion Rate, Bounce Rate, and Scroll Depth for both themes.
 We visualized the relationships between these metrics and compared the performance of the Light Theme and Dark Theme.
