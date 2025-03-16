@@ -36,10 +36,11 @@ warnings.filterwarnings('ignore')
 
 colors = px.colors.qualitative.Plotly
 data = pd.read_csv('website_ab_test.csv')
+print(data.head())
 
 ```
 
-![Alt text](Image/head.png)
+![Alt text](Image/head1.png)
 
 
 Check the information about the data
