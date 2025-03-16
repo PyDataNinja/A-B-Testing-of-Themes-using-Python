@@ -35,4 +35,4 @@ import warnings
 warnings.filterwarnings('ignore')
 
 colors = px.colors.qualitative.Plotly
-data = pd.read_csv(r'Data Science project ideas on Hypothesis Testing/AB Testing for Website Conversion Optimization/Data/website_ab_test.csv')
+data = pd.read_csv('website_ab_test.csv')
