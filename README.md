@@ -12,5 +12,7 @@ If you're curious about how to run an **A/B test** to find the best theme  , you
 A/B testing is a popular technique in data science that helps businesses compare different designs, marketing strategies, or themes to see which one works best. Instead of relying on guesswork, A/B testing allows you to make decisions based on real data — leading to better user experiences, improved performance, and smarter business outcomes.
 
 Imagine a company trying to decide between two website themes: **Dark Mode** and **Light Mode**. By running an A/B test, they can see which theme users prefer and which one performs better. This way, they can confidently choose the design that keeps visitors engaged and satisfied.
+
+![]
 (Image/updated.png)
 
