@@ -36,7 +36,7 @@ warnings.filterwarnings('ignore')
 
 colors = px.colors.qualitative.Plotly
 data = pd.read_csv('website_ab_test.csv')
-print(data.head())
+
 ```
 
 ![Alt text](Image/head.png)
@@ -47,3 +47,9 @@ Check the information about the data
 print(data.info())
 ```
 ![Alt text](Image/info.png)
+
+Check the Missing values
+```python
+print(data.isnull().sum())
+```
+![Alt text](Image/null.png)
