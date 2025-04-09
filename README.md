@@ -1,4 +1,4 @@
-# A-B-Testing-of-Themes-using-Python
+# A/B-Testing-of-Themes-using-Python
 
 
 Have you ever wondered how websites and apps decide on the best design, layout, or theme? Instead of guessing what works best, many platforms use **A/B testing** to experiment with different design variations and see what users respond to the most.
